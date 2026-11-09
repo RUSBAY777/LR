@@ -1,0 +1,8 @@
+__pycache__
+.pytest_cache
+logs
+.venv
+/config/passwords.json
+
+.worktrees
+.superpowers

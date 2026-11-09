@@ -1,0 +1,490 @@
+[2026-11-09T10:49:47.835+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:49:47.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:49:47.838+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:49:47.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:49:47.850+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:49:47.847+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:49:47.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:49:47.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.041 seconds
+[2026-11-09T10:50:18.584+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:18.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:50:18.587+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:18.587+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:18.599+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:18.596+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:50:18.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:18.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.040 seconds
+[2026-11-09T10:50:49.400+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:49.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:50:49.403+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:49.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:49.416+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:49.413+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:50:49.418+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:50:49.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.043 seconds
+[2026-11-09T10:51:20.157+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:20.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:51:20.160+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:20.160+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:20.173+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:20.170+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:51:20.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:20.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.041 seconds
+[2026-11-09T10:51:50.904+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:50.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:51:50.906+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:50.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:50.919+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:50.916+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:51:50.920+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:51:50.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.037 seconds
+[2026-11-09T10:52:21.687+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:21.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:52:21.690+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:21.690+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:21.703+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:21.700+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:52:21.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:21.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T10:52:51.888+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:51.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:52:51.891+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:51.891+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:51.904+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:51.902+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:52:51.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:52:51.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.039 seconds
+[2026-11-09T10:53:22.097+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:22.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:53:22.100+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:22.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:22.114+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:22.110+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:53:22.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:22.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.042 seconds
+[2026-11-09T10:53:53.812+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:53.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:53:53.815+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:53.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:53.827+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:53.824+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:53:53.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:53:53.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.041 seconds
+[2026-11-09T10:54:24.437+0000] {processor.py:161} INFO - Started process (PID=155) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:24.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:54:24.440+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:24.439+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:24.452+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:24.450+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:54:24.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:24.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.039 seconds
+[2026-11-09T10:54:55.098+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:55.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:54:55.101+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:55.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:55.113+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:55.110+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:54:55.114+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:54:55.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.043 seconds
+[2026-11-09T10:55:25.852+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:25.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:55:25.855+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:25.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:25.867+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:25.865+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:55:25.869+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:25.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.040 seconds
+[2026-11-09T10:55:56.515+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:56.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:55:56.518+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:56.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:56.531+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:56.528+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:55:56.532+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:55:56.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.042 seconds
+[2026-11-09T10:56:27.082+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:27.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:56:27.085+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:27.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:27.098+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:27.095+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:56:27.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:27.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T10:56:57.254+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:57.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:56:57.256+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:57.256+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:57.268+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:57.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:56:57.270+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:56:57.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.040 seconds
+[2026-11-09T10:57:28.693+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:28.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:57:28.695+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:28.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:28.707+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:28.704+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:57:28.708+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:28.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.040 seconds
+[2026-11-09T10:57:59.447+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:59.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:57:59.450+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:59.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:59.462+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:59.459+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:57:59.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:57:59.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.042 seconds
+[2026-11-09T10:58:30.108+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:58:30.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:58:30.111+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:30.111+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:58:30.125+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:30.122+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:58:30.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:58:30.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.045 seconds
+[2026-11-09T10:59:00.658+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:00.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:59:00.662+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:00.661+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:00.674+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:00.671+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:59:00.675+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:00.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.042 seconds
+[2026-11-09T10:59:31.426+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:31.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T10:59:31.430+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:31.429+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:31.442+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:31.439+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:59:31.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T10:59:31.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T11:00:02.185+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:02.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:00:02.189+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:02.188+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:02.202+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:02.199+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:00:02.204+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:02.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.048 seconds
+[2026-11-09T11:00:30.242+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:30.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:00:30.246+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:30.245+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:30.260+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:30.257+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:00:30.261+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:00:30.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.043 seconds
+[2026-11-09T11:01:02.060+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:02.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:01:02.064+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:02.063+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:02.076+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:02.074+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:01:02.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:02.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.047 seconds
+[2026-11-09T11:01:33.436+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:33.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:01:33.440+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:33.439+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:33.452+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:33.449+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:01:33.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:01:33.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T11:02:04.099+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:04.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:02:04.102+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:04.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:04.115+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:04.112+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:02:04.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:04.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T11:02:35.542+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:35.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:02:35.545+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:35.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:35.558+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:35.555+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:02:35.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:02:35.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.046 seconds
+[2026-11-09T11:03:06.414+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:06.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:03:06.417+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:06.416+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:06.429+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:06.426+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:03:06.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:06.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.043 seconds
+[2026-11-09T11:03:37.290+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:37.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:03:37.293+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:37.293+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:37.306+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:37.303+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:03:37.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:03:37.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.038 seconds
+[2026-11-09T11:04:09.225+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:09.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:04:09.228+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:09.228+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:09.241+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:09.238+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:04:09.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:09.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.041 seconds
+[2026-11-09T11:04:40.639+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:40.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:04:40.642+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:40.641+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:40.656+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:40.652+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:04:40.657+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:04:40.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.043 seconds
+[2026-11-09T11:05:05.751+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:05.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:05:05.754+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:05.754+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:05.766+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:05.763+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:05:05.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:05.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.041 seconds
+[2026-11-09T11:05:37.585+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:37.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:05:37.588+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:37.588+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:37.601+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:37.598+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:05:37.602+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:05:37.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.042 seconds
+[2026-11-09T11:06:08.177+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:08.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:06:08.180+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:08.179+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:08.193+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:08.190+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:06:08.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:08.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.044 seconds
+[2026-11-09T11:06:38.758+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:38.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:06:38.761+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:38.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:38.772+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:38.770+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:06:38.774+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:06:38.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.038 seconds
+[2026-11-09T11:07:09.485+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:07:09.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/fake_source_loader.py for tasks to queue
+[2026-11-09T11:07:09.490+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:07:09.489+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:07:09.511+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:07:09.508+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/fake_source_loader.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/fake_source_loader.py", line 7, in <module>
+    from airflow.sdk import Param, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:07:09.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/fake_source_loader.py
+[2026-11-09T11:07:09.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/fake_source_loader.py took 0.051 seconds

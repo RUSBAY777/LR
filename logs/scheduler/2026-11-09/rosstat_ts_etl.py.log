@@ -1,0 +1,490 @@
+[2026-11-09T10:49:46.283+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:49:46.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:49:46.286+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:49:46.286+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:49:46.685+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:49:46.680+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:49:46.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:49:46.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.422 seconds
+[2026-11-09T10:50:17.034+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:17.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:50:17.037+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:17.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:17.442+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:17.437+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:50:17.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:17.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.431 seconds
+[2026-11-09T10:50:47.851+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:47.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:50:47.854+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:47.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:48.273+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:50:48.269+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:50:48.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:50:48.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.440 seconds
+[2026-11-09T10:51:18.606+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:18.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:51:18.610+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:18.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:18.996+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:18.992+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:51:18.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:19.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.411 seconds
+[2026-11-09T10:51:49.355+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:49.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:51:49.358+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:49.358+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:49.729+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:51:49.725+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:51:49.730+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:51:49.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.394 seconds
+[2026-11-09T10:52:20.116+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:20.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:52:20.119+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:20.119+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:20.486+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:20.481+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:52:20.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:20.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.392 seconds
+[2026-11-09T10:52:50.865+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:50.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:52:50.868+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:50.868+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:51.229+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:52:51.224+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:52:51.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:52:51.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.385 seconds
+[2026-11-09T10:53:21.515+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:21.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:53:21.519+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:21.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:21.890+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:21.885+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:53:21.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:21.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.396 seconds
+[2026-11-09T10:53:52.259+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:52.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:53:52.262+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:52.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:52.645+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:53:52.639+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:53:52.646+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:53:52.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.406 seconds
+[2026-11-09T10:54:22.984+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:22.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:54:22.987+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:22.986+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:23.344+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:23.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:54:23.346+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:23.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.385 seconds
+[2026-11-09T10:54:53.646+0000] {processor.py:161} INFO - Started process (PID=161) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:53.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:54:53.649+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:53.649+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:54.009+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:54:54.003+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:54:54.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:54:54.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.385 seconds
+[2026-11-09T10:55:24.302+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:24.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:55:24.305+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:24.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:24.670+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:24.665+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:55:24.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:24.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.392 seconds
+[2026-11-09T10:55:55.059+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:55.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:55:55.062+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:55.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:55.423+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:55:55.418+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:55:55.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:55:55.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.385 seconds
+[2026-11-09T10:56:25.716+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:25.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:56:25.720+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:25.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:26.081+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:26.076+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:56:26.083+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:26.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.389 seconds
+[2026-11-09T10:56:56.387+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:56.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:56:56.390+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:56.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:56.797+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:56:56.793+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:56:56.798+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:56:56.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.432 seconds
+[2026-11-09T10:57:27.138+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:27.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:57:27.141+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:27.140+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:27.555+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:27.551+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:57:27.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:27.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.439 seconds
+[2026-11-09T10:57:57.891+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:57.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:57:57.895+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:57.895+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:58.285+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:57:58.279+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:57:58.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:57:58.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.418 seconds
+[2026-11-09T10:58:28.654+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:28.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:58:28.657+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:28.657+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:29.014+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:29.008+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:58:29.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:29.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.379 seconds
+[2026-11-09T10:58:59.209+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:59.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:58:59.212+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:59.212+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:59.566+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:58:59.561+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:58:59.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:58:59.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.379 seconds
+[2026-11-09T10:59:29.874+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:59:29.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T10:59:29.877+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:29.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:59:30.261+0000] {logging_mixin.py:188} INFO - [2026-11-09T10:59:30.257+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T10:59:30.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T10:59:30.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.409 seconds
+[2026-11-09T11:00:00.635+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:00.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:00:00.638+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:00.637+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:01.045+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:01.041+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:00:01.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:01.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.432 seconds
+[2026-11-09T11:00:28.782+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:28.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:00:28.785+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:28.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:29.153+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:00:29.148+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:00:29.154+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:00:29.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.388 seconds
+[2026-11-09T11:01:00.509+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:00.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:01:00.512+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:00.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:00.890+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:00.885+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:01:00.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:00.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.403 seconds
+[2026-11-09T11:01:31.893+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:31.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:01:31.896+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:31.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:32.298+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:01:32.293+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:01:32.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:01:32.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.428 seconds
+[2026-11-09T11:02:03.382+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:03.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:02:03.385+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:03.385+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:03.779+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:03.774+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:02:03.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:03.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.421 seconds
+[2026-11-09T11:02:34.307+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:34.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:02:34.310+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:34.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:34.688+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:02:34.683+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:02:34.690+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:02:34.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.405 seconds
+[2026-11-09T11:03:04.899+0000] {processor.py:161} INFO - Started process (PID=121) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:04.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:03:04.902+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:04.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:05.291+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:05.286+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:03:05.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:05.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.414 seconds
+[2026-11-09T11:03:36.648+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:36.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:03:36.652+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:36.651+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:37.012+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:03:37.007+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:03:37.013+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:03:37.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.386 seconds
+[2026-11-09T11:04:07.913+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:07.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:04:07.916+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:07.916+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:08.274+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:08.269+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:04:08.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:08.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.385 seconds
+[2026-11-09T11:04:39.088+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:39.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:04:39.091+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:39.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:39.498+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:04:39.493+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:04:39.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:04:39.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.433 seconds
+[2026-11-09T11:05:04.876+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:04.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:05:04.879+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:04.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:05.254+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:05.249+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:05:05.256+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:05.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.400 seconds
+[2026-11-09T11:05:36.036+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:36.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:05:36.039+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:36.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:36.418+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:05:36.413+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:05:36.419+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:05:36.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.403 seconds
+[2026-11-09T11:06:06.627+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:06.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:06:06.630+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:06.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:07.021+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:07.017+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:06:07.024+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:07.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.417 seconds
+[2026-11-09T11:06:37.210+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:37.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:06:37.214+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:37.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:37.644+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:06:37.638+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:06:37.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:06:37.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.456 seconds
+[2026-11-09T11:07:07.938+0000] {processor.py:161} INFO - Started process (PID=108) to work on /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:07:07.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/rosstat_ts_etl.py for tasks to queue
+[2026-11-09T11:07:07.942+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:07:07.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:07:08.345+0000] {logging_mixin.py:188} INFO - [2026-11-09T11:07:08.340+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/rosstat_ts_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/rosstat_ts_etl.py", line 22, in <module>
+    from airflow.sdk import Variable, dag, task
+ModuleNotFoundError: No module named 'airflow.sdk'
+[2026-11-09T11:07:08.346+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/rosstat_ts_etl.py
+[2026-11-09T11:07:08.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/rosstat_ts_etl.py took 0.431 seconds
